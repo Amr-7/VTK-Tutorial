@@ -1,0 +1,1854 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 10:36:40 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.41
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 10:36:42 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-b0rfcg"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-b0rfcg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-b0rfcg
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9bad8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 10:36:50 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0rfcg\\cmTC_9bad8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9bad8.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0rfcg\\Debug\\".
+          Creating directory "cmTC_9bad8.dir\\Debug\\cmTC_9bad8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9bad8.dir\\Debug\\cmTC_9bad8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bad8.dir\\Debug\\\\" /Fd"cmTC_9bad8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bad8.dir\\Debug\\\\" /Fd"cmTC_9bad8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0rfcg\\Debug\\cmTC_9bad8.exe" /INCREMENTAL /ILK:"cmTC_9bad8.dir\\Debug\\cmTC_9bad8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-b0rfcg/Debug/cmTC_9bad8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-b0rfcg/Debug/cmTC_9bad8.lib" /MACHINE:X64  /machine:x64 cmTC_9bad8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9bad8.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0rfcg\\Debug\\cmTC_9bad8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9bad8.dir\\Debug\\cmTC_9bad8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9bad8.dir\\Debug\\cmTC_9bad8.tlog\\cmTC_9bad8.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0rfcg\\cmTC_9bad8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-n9mtud"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-n9mtud"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-n9mtud
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9140.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 10:36:58 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9mtud\\cmTC_c9140.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c9140.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9mtud\\Debug\\".
+          Creating directory "cmTC_c9140.dir\\Debug\\cmTC_c9140.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c9140.dir\\Debug\\cmTC_c9140.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9140.dir\\Debug\\\\" /Fd"cmTC_c9140.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9140.dir\\Debug\\\\" /Fd"cmTC_c9140.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9mtud\\Debug\\cmTC_c9140.exe" /INCREMENTAL /ILK:"cmTC_c9140.dir\\Debug\\cmTC_c9140.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-n9mtud/Debug/cmTC_c9140.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-n9mtud/Debug/cmTC_c9140.lib" /MACHINE:X64  /machine:x64 cmTC_c9140.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c9140.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9mtud\\Debug\\cmTC_c9140.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c9140.dir\\Debug\\cmTC_c9140.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c9140.dir\\Debug\\cmTC_c9140.tlog\\cmTC_c9140.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n9mtud\\cmTC_c9140.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 10:37:12 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.25
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 10:37:13 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.27
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-2uruom"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-2uruom"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-2uruom
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_999c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 10:37:21 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2uruom\\cmTC_999c8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_999c8.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2uruom\\Debug\\".
+          Creating directory "cmTC_999c8.dir\\Debug\\cmTC_999c8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_999c8.dir\\Debug\\cmTC_999c8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_999c8.dir\\Debug\\\\" /Fd"cmTC_999c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_999c8.dir\\Debug\\\\" /Fd"cmTC_999c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2uruom\\Debug\\cmTC_999c8.exe" /INCREMENTAL /ILK:"cmTC_999c8.dir\\Debug\\cmTC_999c8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-2uruom/Debug/cmTC_999c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-2uruom/Debug/cmTC_999c8.lib" /MACHINE:X64  /machine:x64 cmTC_999c8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_999c8.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2uruom\\Debug\\cmTC_999c8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_999c8.dir\\Debug\\cmTC_999c8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_999c8.dir\\Debug\\cmTC_999c8.tlog\\cmTC_999c8.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2uruom\\cmTC_999c8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-ohasmi"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-ohasmi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-ohasmi
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b0fe5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 10:37:29 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohasmi\\cmTC_b0fe5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b0fe5.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohasmi\\Debug\\".
+          Creating directory "cmTC_b0fe5.dir\\Debug\\cmTC_b0fe5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b0fe5.dir\\Debug\\cmTC_b0fe5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b0fe5.dir\\Debug\\\\" /Fd"cmTC_b0fe5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b0fe5.dir\\Debug\\\\" /Fd"cmTC_b0fe5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohasmi\\Debug\\cmTC_b0fe5.exe" /INCREMENTAL /ILK:"cmTC_b0fe5.dir\\Debug\\cmTC_b0fe5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-ohasmi/Debug/cmTC_b0fe5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-ohasmi/Debug/cmTC_b0fe5.lib" /MACHINE:X64  /machine:x64 cmTC_b0fe5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b0fe5.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohasmi\\Debug\\cmTC_b0fe5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b0fe5.dir\\Debug\\cmTC_b0fe5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b0fe5.dir\\Debug\\cmTC_b0fe5.tlog\\cmTC_b0fe5.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ohasmi\\cmTC_b0fe5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.56
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 10:40:43 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.44
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 10:40:45 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.35
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-vviahh"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-vviahh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-vviahh
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aad9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 10:40:53 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vviahh\\cmTC_aad9e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_aad9e.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vviahh\\Debug\\".
+          Creating directory "cmTC_aad9e.dir\\Debug\\cmTC_aad9e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_aad9e.dir\\Debug\\cmTC_aad9e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aad9e.dir\\Debug\\\\" /Fd"cmTC_aad9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aad9e.dir\\Debug\\\\" /Fd"cmTC_aad9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vviahh\\Debug\\cmTC_aad9e.exe" /INCREMENTAL /ILK:"cmTC_aad9e.dir\\Debug\\cmTC_aad9e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-vviahh/Debug/cmTC_aad9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-vviahh/Debug/cmTC_aad9e.lib" /MACHINE:X64  /machine:x64 cmTC_aad9e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_aad9e.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vviahh\\Debug\\cmTC_aad9e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_aad9e.dir\\Debug\\cmTC_aad9e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_aad9e.dir\\Debug\\cmTC_aad9e.tlog\\cmTC_aad9e.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vviahh\\cmTC_aad9e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hfshu9"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hfshu9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hfshu9
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1c38c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 10:41:00 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfshu9\\cmTC_1c38c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1c38c.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfshu9\\Debug\\".
+          Creating directory "cmTC_1c38c.dir\\Debug\\cmTC_1c38c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1c38c.dir\\Debug\\cmTC_1c38c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c38c.dir\\Debug\\\\" /Fd"cmTC_1c38c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c38c.dir\\Debug\\\\" /Fd"cmTC_1c38c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfshu9\\Debug\\cmTC_1c38c.exe" /INCREMENTAL /ILK:"cmTC_1c38c.dir\\Debug\\cmTC_1c38c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hfshu9/Debug/cmTC_1c38c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hfshu9/Debug/cmTC_1c38c.lib" /MACHINE:X64  /machine:x64 cmTC_1c38c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1c38c.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfshu9\\Debug\\cmTC_1c38c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1c38c.dir\\Debug\\cmTC_1c38c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1c38c.dir\\Debug\\cmTC_1c38c.tlog\\cmTC_1c38c.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hfshu9\\cmTC_1c38c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.32
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 11:00:38 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.40
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 11:00:40 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.20
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hlweii"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hlweii"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hlweii
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_38004.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:00:48 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlweii\\cmTC_38004.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_38004.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlweii\\Debug\\".
+          Creating directory "cmTC_38004.dir\\Debug\\cmTC_38004.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_38004.dir\\Debug\\cmTC_38004.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38004.dir\\Debug\\\\" /Fd"cmTC_38004.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38004.dir\\Debug\\\\" /Fd"cmTC_38004.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlweii\\Debug\\cmTC_38004.exe" /INCREMENTAL /ILK:"cmTC_38004.dir\\Debug\\cmTC_38004.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hlweii/Debug/cmTC_38004.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-hlweii/Debug/cmTC_38004.lib" /MACHINE:X64  /machine:x64 cmTC_38004.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_38004.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlweii\\Debug\\cmTC_38004.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_38004.dir\\Debug\\cmTC_38004.tlog\\unsuccessfulbuild".
+          Touching "cmTC_38004.dir\\Debug\\cmTC_38004.tlog\\cmTC_38004.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlweii\\cmTC_38004.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-90dpna"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-90dpna"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-90dpna
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_91e84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:00:55 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90dpna\\cmTC_91e84.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_91e84.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90dpna\\Debug\\".
+          Creating directory "cmTC_91e84.dir\\Debug\\cmTC_91e84.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_91e84.dir\\Debug\\cmTC_91e84.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_91e84.dir\\Debug\\\\" /Fd"cmTC_91e84.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_91e84.dir\\Debug\\\\" /Fd"cmTC_91e84.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90dpna\\Debug\\cmTC_91e84.exe" /INCREMENTAL /ILK:"cmTC_91e84.dir\\Debug\\cmTC_91e84.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-90dpna/Debug/cmTC_91e84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-90dpna/Debug/cmTC_91e84.lib" /MACHINE:X64  /machine:x64 cmTC_91e84.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_91e84.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90dpna\\Debug\\cmTC_91e84.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_91e84.dir\\Debug\\cmTC_91e84.tlog\\unsuccessfulbuild".
+          Touching "cmTC_91e84.dir\\Debug\\cmTC_91e84.tlog\\cmTC_91e84.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90dpna\\cmTC_91e84.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-a5kuca"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-a5kuca"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-a5kuca
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d8804.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:01:03 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\cmTC_d8804.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d8804.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\Debug\\".
+          Creating directory "cmTC_d8804.dir\\Debug\\cmTC_d8804.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d8804.dir\\Debug\\cmTC_d8804.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8804.dir\\Debug\\\\" /Fd"cmTC_d8804.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8804.dir\\Debug\\\\" /Fd"cmTC_d8804.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\src.c"
+        C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\cmTC_d8804.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\cmTC_d8804.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\cmTC_d8804.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5kuca\\cmTC_d8804.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.00
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8qxij4"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8qxij4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8qxij4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cbf0b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:01:11 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\cmTC_cbf0b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cbf0b.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\Debug\\".
+          Creating directory "cmTC_cbf0b.dir\\Debug\\cmTC_cbf0b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cbf0b.dir\\Debug\\cmTC_cbf0b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cbf0b.dir\\Debug\\\\" /Fd"cmTC_cbf0b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cbf0b.dir\\Debug\\\\" /Fd"cmTC_cbf0b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\Debug\\cmTC_cbf0b.exe" /INCREMENTAL /ILK:"cmTC_cbf0b.dir\\Debug\\cmTC_cbf0b.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8qxij4/Debug/cmTC_cbf0b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8qxij4/Debug/cmTC_cbf0b.lib" /MACHINE:X64  /machine:x64 cmTC_cbf0b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\cmTC_cbf0b.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\cmTC_cbf0b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\cmTC_cbf0b.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qxij4\\cmTC_cbf0b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.14
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-s1ln5t"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-s1ln5t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-s1ln5t
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_752b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:01:18 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\cmTC_752b9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_752b9.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\Debug\\".
+          Creating directory "cmTC_752b9.dir\\Debug\\cmTC_752b9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_752b9.dir\\Debug\\cmTC_752b9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_752b9.dir\\Debug\\\\" /Fd"cmTC_752b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_752b9.dir\\Debug\\\\" /Fd"cmTC_752b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\Debug\\cmTC_752b9.exe" /INCREMENTAL /ILK:"cmTC_752b9.dir\\Debug\\cmTC_752b9.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-s1ln5t/Debug/cmTC_752b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-s1ln5t/Debug/cmTC_752b9.lib" /MACHINE:X64  /machine:x64 cmTC_752b9.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\cmTC_752b9.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\cmTC_752b9.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\cmTC_752b9.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s1ln5t\\cmTC_752b9.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.22
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 11:03:17 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.34
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 11:03:19 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.21
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-5snb8s"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-5snb8s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-5snb8s
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_22b37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:03:26 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5snb8s\\cmTC_22b37.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_22b37.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5snb8s\\Debug\\".
+          Creating directory "cmTC_22b37.dir\\Debug\\cmTC_22b37.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_22b37.dir\\Debug\\cmTC_22b37.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22b37.dir\\Debug\\\\" /Fd"cmTC_22b37.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22b37.dir\\Debug\\\\" /Fd"cmTC_22b37.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5snb8s\\Debug\\cmTC_22b37.exe" /INCREMENTAL /ILK:"cmTC_22b37.dir\\Debug\\cmTC_22b37.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-5snb8s/Debug/cmTC_22b37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-5snb8s/Debug/cmTC_22b37.lib" /MACHINE:X64  /machine:x64 cmTC_22b37.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_22b37.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5snb8s\\Debug\\cmTC_22b37.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_22b37.dir\\Debug\\cmTC_22b37.tlog\\unsuccessfulbuild".
+          Touching "cmTC_22b37.dir\\Debug\\cmTC_22b37.tlog\\cmTC_22b37.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5snb8s\\cmTC_22b37.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-w9xwu3"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-w9xwu3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-w9xwu3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_757b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:03:34 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9xwu3\\cmTC_757b3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_757b3.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9xwu3\\Debug\\".
+          Creating directory "cmTC_757b3.dir\\Debug\\cmTC_757b3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_757b3.dir\\Debug\\cmTC_757b3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_757b3.dir\\Debug\\\\" /Fd"cmTC_757b3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_757b3.dir\\Debug\\\\" /Fd"cmTC_757b3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9xwu3\\Debug\\cmTC_757b3.exe" /INCREMENTAL /ILK:"cmTC_757b3.dir\\Debug\\cmTC_757b3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-w9xwu3/Debug/cmTC_757b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-w9xwu3/Debug/cmTC_757b3.lib" /MACHINE:X64  /machine:x64 cmTC_757b3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_757b3.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9xwu3\\Debug\\cmTC_757b3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_757b3.dir\\Debug\\cmTC_757b3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_757b3.dir\\Debug\\cmTC_757b3.tlog\\cmTC_757b3.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9xwu3\\cmTC_757b3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.19
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8g2zil"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8g2zil"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8g2zil
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe711.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:03:42 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\cmTC_fe711.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fe711.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\Debug\\".
+          Creating directory "cmTC_fe711.dir\\Debug\\cmTC_fe711.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fe711.dir\\Debug\\cmTC_fe711.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe711.dir\\Debug\\\\" /Fd"cmTC_fe711.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe711.dir\\Debug\\\\" /Fd"cmTC_fe711.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\src.c"
+        C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\cmTC_fe711.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\cmTC_fe711.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\cmTC_fe711.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8g2zil\\cmTC_fe711.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-rrcw0e"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-rrcw0e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-rrcw0e
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f0a19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:03:49 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\cmTC_f0a19.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f0a19.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\Debug\\".
+          Creating directory "cmTC_f0a19.dir\\Debug\\cmTC_f0a19.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f0a19.dir\\Debug\\cmTC_f0a19.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0a19.dir\\Debug\\\\" /Fd"cmTC_f0a19.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0a19.dir\\Debug\\\\" /Fd"cmTC_f0a19.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\Debug\\cmTC_f0a19.exe" /INCREMENTAL /ILK:"cmTC_f0a19.dir\\Debug\\cmTC_f0a19.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-rrcw0e/Debug/cmTC_f0a19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-rrcw0e/Debug/cmTC_f0a19.lib" /MACHINE:X64  /machine:x64 cmTC_f0a19.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\cmTC_f0a19.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\cmTC_f0a19.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\cmTC_f0a19.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rrcw0e\\cmTC_f0a19.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.11
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8fwhmj"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8fwhmj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8fwhmj
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4fdaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:03:57 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\cmTC_4fdaa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4fdaa.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\Debug\\".
+          Creating directory "cmTC_4fdaa.dir\\Debug\\cmTC_4fdaa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4fdaa.dir\\Debug\\cmTC_4fdaa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fdaa.dir\\Debug\\\\" /Fd"cmTC_4fdaa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fdaa.dir\\Debug\\\\" /Fd"cmTC_4fdaa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\Debug\\cmTC_4fdaa.exe" /INCREMENTAL /ILK:"cmTC_4fdaa.dir\\Debug\\cmTC_4fdaa.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8fwhmj/Debug/cmTC_4fdaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-8fwhmj/Debug/cmTC_4fdaa.lib" /MACHINE:X64  /machine:x64 cmTC_4fdaa.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\cmTC_4fdaa.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\cmTC_4fdaa.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\cmTC_4fdaa.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fwhmj\\cmTC_4fdaa.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.08
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 11:05:35 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.31
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 19/5/2023 11:05:37 PM.
+      
+      Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.22
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-6miq6c"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-6miq6c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-6miq6c
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_517e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:05:45 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6miq6c\\cmTC_517e5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_517e5.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6miq6c\\Debug\\".
+          Creating directory "cmTC_517e5.dir\\Debug\\cmTC_517e5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_517e5.dir\\Debug\\cmTC_517e5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_517e5.dir\\Debug\\\\" /Fd"cmTC_517e5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_517e5.dir\\Debug\\\\" /Fd"cmTC_517e5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6miq6c\\Debug\\cmTC_517e5.exe" /INCREMENTAL /ILK:"cmTC_517e5.dir\\Debug\\cmTC_517e5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-6miq6c/Debug/cmTC_517e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-6miq6c/Debug/cmTC_517e5.lib" /MACHINE:X64  /machine:x64 cmTC_517e5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_517e5.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6miq6c\\Debug\\cmTC_517e5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_517e5.dir\\Debug\\cmTC_517e5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_517e5.dir\\Debug\\cmTC_517e5.tlog\\cmTC_517e5.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6miq6c\\cmTC_517e5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-tf4aw0"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-tf4aw0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-tf4aw0
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ec5b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:05:52 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tf4aw0\\cmTC_ec5b7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ec5b7.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tf4aw0\\Debug\\".
+          Creating directory "cmTC_ec5b7.dir\\Debug\\cmTC_ec5b7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ec5b7.dir\\Debug\\cmTC_ec5b7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ec5b7.dir\\Debug\\\\" /Fd"cmTC_ec5b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ec5b7.dir\\Debug\\\\" /Fd"cmTC_ec5b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tf4aw0\\Debug\\cmTC_ec5b7.exe" /INCREMENTAL /ILK:"cmTC_ec5b7.dir\\Debug\\cmTC_ec5b7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-tf4aw0/Debug/cmTC_ec5b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-tf4aw0/Debug/cmTC_ec5b7.lib" /MACHINE:X64  /machine:x64 cmTC_ec5b7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ec5b7.vcxproj -> C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tf4aw0\\Debug\\cmTC_ec5b7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ec5b7.dir\\Debug\\cmTC_ec5b7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ec5b7.dir\\Debug\\cmTC_ec5b7.tlog\\cmTC_ec5b7.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tf4aw0\\cmTC_ec5b7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-myqe2p"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-myqe2p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-myqe2p
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_36210.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:06:00 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\cmTC_36210.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_36210.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\Debug\\".
+          Creating directory "cmTC_36210.dir\\Debug\\cmTC_36210.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_36210.dir\\Debug\\cmTC_36210.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36210.dir\\Debug\\\\" /Fd"cmTC_36210.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36210.dir\\Debug\\\\" /Fd"cmTC_36210.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\src.c"
+        C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\cmTC_36210.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\cmTC_36210.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\cmTC_36210.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-myqe2p\\cmTC_36210.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.03
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-76nq6q"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-76nq6q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-76nq6q
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f3c64.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:06:08 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\cmTC_f3c64.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f3c64.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\Debug\\".
+          Creating directory "cmTC_f3c64.dir\\Debug\\cmTC_f3c64.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f3c64.dir\\Debug\\cmTC_f3c64.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3c64.dir\\Debug\\\\" /Fd"cmTC_f3c64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3c64.dir\\Debug\\\\" /Fd"cmTC_f3c64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\Debug\\cmTC_f3c64.exe" /INCREMENTAL /ILK:"cmTC_f3c64.dir\\Debug\\cmTC_f3c64.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-76nq6q/Debug/cmTC_f3c64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-76nq6q/Debug/cmTC_f3c64.lib" /MACHINE:X64  /machine:x64 cmTC_f3c64.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\cmTC_f3c64.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\cmTC_f3c64.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\cmTC_f3c64.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-76nq6q\\cmTC_f3c64.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.07
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "C:/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-bmx0zf"
+      binary: "C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-bmx0zf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;C:/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-bmx0zf
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7d95d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 19/5/2023 11:06:15 PM.
+        
+        Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\cmTC_7d95d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7d95d.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\Debug\\".
+          Creating directory "cmTC_7d95d.dir\\Debug\\cmTC_7d95d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7d95d.dir\\Debug\\cmTC_7d95d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d95d.dir\\Debug\\\\" /Fd"cmTC_7d95d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d95d.dir\\Debug\\\\" /Fd"cmTC_7d95d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\Debug\\cmTC_7d95d.exe" /INCREMENTAL /ILK:"cmTC_7d95d.dir\\Debug\\cmTC_7d95d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-bmx0zf/Debug/cmTC_7d95d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Desktop/uni n shit/SEM 6/DATA VIS/Tutorial/MedicalDemo3/build/CMakeFiles/CMakeScratch/TryCompile-bmx0zf/Debug/cmTC_7d95d.lib" /MACHINE:X64  /machine:x64 cmTC_7d95d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\cmTC_7d95d.vcxproj]
+        Done Building Project "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\cmTC_7d95d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\cmTC_7d95d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\User\\Desktop\\uni n shit\\SEM 6\\DATA VIS\\Tutorial\\MedicalDemo3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bmx0zf\\cmTC_7d95d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.07
+        
+      exitCode: 1
+...

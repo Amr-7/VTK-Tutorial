@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\uni n shit\SEM 6\DATA VIS\Tutorial\MedicalDemo3\build\CMakeFiles\9427a9ee0e2b3606ed53e104d6f55b76\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8473389D-2D18-3655-8DA6-D3BE6BD12B7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
